@@ -7,7 +7,7 @@
     "@gitbook/runtime": "*"
   },
   "devDependencies": {
-    "@gitbook/cli": "*",
+    "@gitbook/cli": "^0.19.0",
     "@gitbook/tsconfig": "*"
   },
   "scripts": {
