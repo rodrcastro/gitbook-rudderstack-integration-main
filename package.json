@@ -1,0 +1,53 @@
+{
+  "name": "integration-rudderstack",
+  "version": "1.0.2",
+  "private": true,
+  "dependencies": {
+    "@gitbook/api": "^0.85.0",
+    "@gitbook/runtime": "*",
+    "crypto-js": "^4.2.0"
+  },
+  "devDependencies": {
+    "@babel/preset-env": "^7.23.9",
+    "@gitbook/cli": "*",
+    "@gitbook/eslint-config": "*",
+    "@gitbook/tsconfig": "*",
+    "@types/crypto-js": "^4.2.2",
+    "@types/jest": "^29.5.12",
+    "@types/node": "^18.16.0",
+    "assert": "^2.0.0",
+    "babel-jest": "^29.7.0",
+    "esbuild-register": "^3.5.0",
+    "eslint": "^8.57.0",
+    "eslint-config-airbnb-typescript": "7",
+    "eslint-config-standard-with-typescript": "^43.0.1",
+    "eslint-plugin-import": "2",
+    "eslint-plugin-json": "^3.1.0",
+    "husky": "^9.0.11",
+    "jest": "^29.7.0",
+    "test": "^3.2.1",
+    "ts-jest": "^29.1.2",
+    "typescript": "^5.3.3"
+  },
+  "scripts": {
+    "typecheck": "tsc --noEmit",
+    "publish-integration": "gitbook publish .",
+    "test": "jest --passWithNoTests",
+    "lint": "eslint . --max-warnings 0",
+    "lint:fix": "eslint --fix .",
+    "prepare": "husky install",
+    "prettier": "prettier --write .",
+    "prettier:check": "prettier --check ."
+  },
+  "prettier": {
+    "useTabs": false,
+    "trailingComma": "none",
+    "singleQuote": true,
+    "jsxBracketSameLine": false,
+    "arrowParens": "avoid"
+  },
+  "eslintIgnore": [
+    "*.test.ts",
+    ".eslintrc.js"
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "$schema": "https://json.schemastore.org/tsconfig",
+  "display": "Integration",
+  "compilerOptions": {
+    "resolveJsonModule": true,
+    "allowSyntheticDefaultImports": true,
+    "esModuleInterop": true,
+    "lib": ["ES2021"],
+    "jsx": "react-jsx",
+    "jsxImportSource": "@gitbook/runtime"
+  },
+  "exclude": ["node_modules", ".eslintrc.js"]
+}
