@@ -1,7 +1,7 @@
-name: warp-rudderstack
+name: rodrcastro-warp-rudderstack
 title: RudderStack
 icon: ./assets/icon.png
-organization: -MbqIZLCtzerswjFm7mh
+organization: 1nRa14FgxAAyIV9QUOnP
 description: Integrate your GitBook public documentation with your RudderStack pipeline.
 visibility: private
 script: ./src/index.ts
