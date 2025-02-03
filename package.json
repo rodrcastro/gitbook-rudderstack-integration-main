@@ -4,7 +4,8 @@
   "private": true,
   "dependencies": {
     "@gitbook/api": "*",
-    "@gitbook/runtime": "*"
+    "@gitbook/runtime": "*",
+    "crypto-js": "^4.2.0"
   },
   "devDependencies": {
     "@gitbook/cli": "^0.19.0",

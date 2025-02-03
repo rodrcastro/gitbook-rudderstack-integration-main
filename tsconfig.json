@@ -5,7 +5,7 @@
     "resolveJsonModule": true,
     "allowSyntheticDefaultImports": true,
     "esModuleInterop": true,
-    "lib": ["ES2021"],
+    "lib": ["DOM","ES2021"],
     "jsx": "react-jsx",
     "jsxImportSource": "@gitbook/runtime"
   },
